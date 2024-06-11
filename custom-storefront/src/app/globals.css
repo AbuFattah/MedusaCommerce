@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn-light {
+    @apply rounded-md py-2 px-3 ring-1 ring-gray-300;
+  }
+  .btn-dark {
+    @apply rounded-md py-2 px-3 text-white bg-black;
+  }
+}
