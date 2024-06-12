@@ -10,3 +10,10 @@
     @apply rounded-md py-2 px-3 text-white bg-black;
   }
 }
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  scrollbar-width: none;
+}
