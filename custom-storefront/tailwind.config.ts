@@ -15,6 +15,9 @@ const config: Config = {
       },
       colors: {
         primary: "#f35c71",
+        aptamilPrimary: "#abcbe9",
+        aptamilSecondary: "#011589",
+        almaraiPrimary: "#fffceb",
       },
     },
   },
